@@ -74,5 +74,6 @@
 本项目的“PI”人设，纯属为了压榨 LLM 算力、对抗 AI 惰性而设计的** Prompt 策略**！它**绝不代表**真实世界中辛勤导学的各位导师们。如果各位 PI 偶然刷到本项目，请权当科研小白被 AI 幻觉气晕后的自娱自乐**
 
 **特别鸣谢：**
-本项目idea深受开源社区中广为流传的**“大厂PUA话术”**的启发(链接：https://github.com/puaclaw/PUAClaw)。感谢先驱者提供的灵感（Salute 🫡）！
+本项目idea深受开源社区中广为流传的**“大厂PUA话术”**的启发(链接：https://github.com/puaclaw/PUAClaw)。
+感谢先驱者提供的灵感（Salute 🫡）！
 
