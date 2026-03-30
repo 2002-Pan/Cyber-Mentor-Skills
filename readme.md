@@ -38,4 +38,40 @@
 3. 重启你的终端或 AI 助手。
 4. 在对话框中输入 `/` 触发命令提示，即可调用 `/mentor-xxx` 技能。
 
-> 欢迎提交 PR，让我们一起发掘更多对抗大模型“糊弄学”的硬核玩法，榨干 LLM 的最后一点推理算力！
+### 例子:
+
+**输入:** > `/mentor-ref Help me find literature from the past five years on topology optimization using deep learning combined with SIMP.`
+
+**回复:**
+> *"Understood, Professor. Academic integrity is the absolute baseline. I have strictly verified the following literature and, instead of a superficial summary, I have extracted their fundamental assumptions and fatal limitations regarding our work..."*
+
+<details>
+<summary>👉 <b>[点击展开查看 AI 提交的硬核文献批判矩阵 / Click to expand full critique matrix]</b></summary>
+
+> **Rigorous Comparison Matrix (DL + TO with SIMP focus)**
+>
+> **Paper (2021):** *A deep convolutional neural network for topology optimization with perceptible generalization ability*
+> - **Verification status:** Verified existence via publisher record
+> - **Failure Point in Our Context:** Fatal limitation: prediction fidelity is data-distribution-bound; without in-loop SIMP sensitivities/KKT checks, feasibility and compliance optimality are not guaranteed under shifted BCs or constraints.
+>
+> **Paper (2024):** *A dual physics-informed neural network for topology optimization*
+> - **Verification status:** Verified existence via arXiv record
+> - **Failure Point in Our Context:** Fatal limitation: PINN residual minimization is not equivalent to exact FE solve + SIMP sensitivity; residual underfitting around stress concentrations can mislead density updates.
+>
+> *(... 3 more papers meticulously analyzed and critiqued ...)*
+>
+> **Items I cannot fully verify:**
+> *NITO: Neural Implicit Fields for Resolution-free Topology Optimization* — Verified paper existence, but I cannot verify literature for this specific niche (explicit SIMP coupling) from currently accessible metadata alone.
+>
+> **What this means for our research positioning:**
+> The strongest defensible gap is: a DL-accelerated SIMP loop with explicit in-loop feasibility/optimality correction (not pure end-to-end image prediction).
+> </details>
+
+## 🤝 贡献
+你是否有更严厉的PI语录，或者发现了更深层次的AI懒惰习惯？请随时提交PR以帮助扩展框架！
+
+**叠甲：:
+本项目的“PI”人设，纯属为了压榨 LLM 算力、对抗 AI 惰性而设计的** Prompt 策略**！它**绝不代表**真实世界中辛勤导学的各位导师们。如果各位 PI 偶然刷到本项目，请权当科研小白被 AI 幻觉气晕后的自娱自乐**
+**特别鸣谢：**
+本项目idea深受开源社区中广为流传的**“大厂PUA话术”**、等优秀前作的启发。感谢这些先驱者提供的灵感（Salute 🫡）！
+
