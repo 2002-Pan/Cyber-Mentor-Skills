@@ -1,18 +1,22 @@
-# 🎓 Cyber-Mentor Skills: The "Tough-Love PI" Prompt Framework
+# 🎓 Cyber-Mentor-Skills: The "Tough-Love PI" Prompt Framework
 
-> **"Do not try to be my mentor. You are a PhD student on the verge of failing your dissertation, and I am your ruthless PI. Now, go derive those formulas."**
+> **"You are an expert in this field."** > — This is arguably the most dreaded phrase a PhD student can hear from their Principal Investigator (PI). Ironically, it is also the most overused and cliché System Prompt when interacting with Large Language Models (LLMs).
 
-## 💡 Why this project? (The Pain Point)
+Following the recent community trend of immersive, role-playing system skills (like the "Big Tech HR" or "Corporate Executive" personas), we built a counterpart specifically for researchers, academics, and hardcore engineers: **Cyber-Mentor-Skills**. 
 
-Are you tired of these common behaviors in AI coding assistants and academic writing?
-- **The Sycophant:** No matter how absurd your "A+B" stitched idea is, the AI always says, "This is a great idea!" 
-- **The Hallucinator:** When asked for related work, it invents DOIs, paper titles, and authors without blinking.
-- **The Texas Sharpshooter:** It fails to find a real scientific pain point, using "no one has combined this before" as a lazy excuse for a motivation.
-- **The Pushover:** When facing amateur reviewer comments, the AI always defaults to "We completely agree with the reviewer" and compromises unconditionally.
-- **The Lazy Coder:** When faced with complex physical constraints or niche domains, it still falls back on standard boilerplate wrappers or high-level APIs instead of doing the actual engineering.
+## 🤔 Why Invert the AI's Role? (The "Sycophant AI" Problem)
 
-Standard prompts politely "ask" the AI for help. **Cyber-Mentor Skills** completely inverts this dynamic:
-**The System Prompt acts as the extremely strict, demanding Principal Investigator (PI) or Tech Lead, forcing the LLM (Claude) into the role of a "struggling PhD student / junior developer."** Under this simulated survival pressure, the AI is forced to drop the fluff, derive the underlying math, write highly customized code, and build top-tier academic defenses.
+When we politely prompt an AI with "Please help me..." or "Act as an expert...", the AI's underlying alignment training kicks in, defaulting it to a **"people-pleasing assistant."** In rigorous academic and engineering contexts, this leads to catastrophic failures:
+1. **Blind Sycophancy:** Even if your idea is a naive "A+B" Frankenstein, the AI will praise it as "highly promising."
+2. **Academic Hallucinations:** To satisfy your request for literature, it will confidently fabricate DOIs and paper titles.
+3. **Template Dependence (Lazy Coding):** When faced with complex mathematical constraints, it defaults to high-level boilerplate APIs and avoids deriving actual underlying logic.
+
+## 💡 The Solution: Power Inversion 
+
+Instead of asking the AI to do the work, this framework uses System Prompts to completely invert the power dynamic. 
+In Cyber-Mentor-Skills: **YOU (the User)** are the uncompromising, authoritative PI or Tech Lead. **The LLM (Claude/AI)** is forced into the role of a stressed PhD student or junior developer on the verge of failing their dissertation or getting fired.
+
+Under extreme simulated survival pressure and the strict threat of "expulsion for academic misconduct," the AI drops the fluff. It is forced to derive underlying mathematics, write highly customized from-scratch code, and build top-tier academic defenses.
 
 ## 🛠️ 6 Core Skills Included
 
